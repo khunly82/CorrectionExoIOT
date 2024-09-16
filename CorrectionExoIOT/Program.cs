@@ -19,7 +19,10 @@ builder.Services.AddHostedService<MqttBackgroundService>();
 builder.Services.AddTransient(b => new SqlConnection(builder.Configuration.GetConnectionString("Default")));
 builder.Services.AddTransient<InfoMaisonRepository>();
 
+builder.Services.AddCors(b => b.AddDefaultPolicy(o => o.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader()));
+
 var app = builder.Build();
+app.UseCors();
 
 app.UseSwagger();
 app.UseSwaggerUI();
