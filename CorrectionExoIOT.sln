@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionExoIOT", "CorrectionExoIOT\CorrectionExoIOT.csproj", "{08819D7D-6373-46CE-BF94-8813C44F5BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectionExoIOT.DAL", "CorrectionExoIOT.DAL\CorrectionExoIOT.DAL.csproj", "{DC4FB98C-A8B6-45B3-8742-CD9B880F5590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08819D7D-6373-46CE-BF94-8813C44F5BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08819D7D-6373-46CE-BF94-8813C44F5BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08819D7D-6373-46CE-BF94-8813C44F5BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08819D7D-6373-46CE-BF94-8813C44F5BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4FB98C-A8B6-45B3-8742-CD9B880F5590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4FB98C-A8B6-45B3-8742-CD9B880F5590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4FB98C-A8B6-45B3-8742-CD9B880F5590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4FB98C-A8B6-45B3-8742-CD9B880F5590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DB81CBA-39A5-4FB6-8AF0-F8E857826AC7}
+	EndGlobalSection
+EndGlobal
